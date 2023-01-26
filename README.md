@@ -7,8 +7,10 @@
 - JS
 
 ## In-Class Assignments 
-- ICA1
-- ICA2
+- ICA1 
+- [In class assignment 1] https://docs.google.com/document/d/1a-nw4o_5szOSF-Vy2yb5WE_ONrnaeJX1e4OCnEEZ2xY/edit?usp=sharing
+- ICA2 
+- [In class assignment 1]https://docs.google.com/document/d/1jXWHwKKyfFVqsB9_MQngLBdqASyFo57x1F4VixMVSyI/edit?usp=sharing
 - ICA3
 - ICA4
 - ICA5
@@ -24,8 +26,10 @@
 - ICA15
 
 ## Weekly Assignments
-- WA1
-- WA2
+- WA1 
+- [Assignment 1]kailyfox17.github.io/wa/wa1.html
+- WA2 
+- [Assignment 2]https://kailyfox17.github.io/wa/wa2.html
 - WA3
 - WA4
 - WA5
