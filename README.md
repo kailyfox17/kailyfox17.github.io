@@ -8,7 +8,7 @@
 
 ## In-Class Assignments 
 - ICA1 
-- [In class assignment 1] https://docs.google.com/document/d/1a-nw4o_5szOSF-Vy2yb5WE_ONrnaeJX1e4OCnEEZ2xY/edit?usp=sharing
+- [In class assignment 1](https://docs.google.com/document/d/1a-nw4o_5szOSF-Vy2yb5WE_ONrnaeJX1e4OCnEEZ2xY/edit?usp=sharing)
 - ICA2 
 - [In class assignment 1]https://docs.google.com/document/d/1jXWHwKKyfFVqsB9_MQngLBdqASyFo57x1F4VixMVSyI/edit?usp=sharing
 - ICA3
