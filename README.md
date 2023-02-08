@@ -12,6 +12,7 @@
 - ICA2 
 - [In class assignment 1](https://docs.google.com/document/d/1jXWHwKKyfFVqsB9_MQngLBdqASyFo57x1F4VixMVSyI/edit?usp=sharing)
 - ICA3
+[In class assignment 1](kailyfox17.github.io/ica/ica3a.html)
 - ICA4
 - ICA5
 - ICA6
@@ -31,7 +32,7 @@
 - WA2 
 - [Assignment 2](https://kailyfox17.github.io/wa/wa2.html)
 - WA3
-- [Assignment 3](kailyfox17.github.io/wa/wa3.html)
+- [Assignment 3](kailyfox17.github.io/wa/wa33.html)
 - WA4
 - WA5
 - WA6
