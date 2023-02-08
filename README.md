@@ -31,6 +31,7 @@
 - WA2 
 - [Assignment 2](https://kailyfox17.github.io/wa/wa2.html)
 - WA3
+- [Assignment 3](kailyfox17.github.io/wa/wa3.html)
 - WA4
 - WA5
 - WA6
