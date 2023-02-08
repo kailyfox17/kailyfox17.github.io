@@ -10,9 +10,9 @@
 - ICA1 
 - [In class assignment 1](https://docs.google.com/document/d/1a-nw4o_5szOSF-Vy2yb5WE_ONrnaeJX1e4OCnEEZ2xY/edit?usp=sharing)
 - ICA2 
-- [In class assignment 1](https://docs.google.com/document/d/1jXWHwKKyfFVqsB9_MQngLBdqASyFo57x1F4VixMVSyI/edit?usp=sharing)
+- [In class assignment 2](https://docs.google.com/document/d/1jXWHwKKyfFVqsB9_MQngLBdqASyFo57x1F4VixMVSyI/edit?usp=sharing)
 - ICA3
-[In class assignment 1](kailyfox17.github.io/ica/ica3a.html)
+-[In class assignment 3](kailyfox17.github.io/ica/ica3a.html)
 - ICA4
 - ICA5
 - ICA6
