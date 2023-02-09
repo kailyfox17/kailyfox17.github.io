@@ -25,12 +25,12 @@ background-color: #fff;
 
       a:link,
       a:visited {
-        color: #fb6542;
+        color: green;
       }
 
       a:hover {
         text-decoration: none;
-        color: green
+        color: green;
       }
 
       ul {
