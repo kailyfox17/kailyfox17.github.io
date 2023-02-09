@@ -63,9 +63,13 @@ body {
     line-height: 2;
   }
 
-  .card article img{
-    max-height: 100%
-    float right;
+  .card img{
+    max-height: 100%;
+    float: right;
+  }
+
+  .card article {
+    height: 10em;
   }
 
 .card article p {
@@ -88,9 +92,6 @@ body {
   /* Selectors to be matched up with rulesets */
   
 
-
- 
-  
   /* Rulesets to be matched up with selectors */
   
   .card2{
@@ -139,8 +140,8 @@ body {
   }
 
   .card2 article img{
-    max-height: 100%
-    float right;
+    max-height: 100%;
+    float: right;
   }
 
 .card2 article p {
