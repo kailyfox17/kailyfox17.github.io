@@ -1,38 +1,25 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-family: sans-serif;
-  }
-  
-  body {
-    margin: 0;
-    background: #ccc;
-  }
-  
-  article {
-    width: 150mm;
-    height: 100mm;
-    margin: 20px auto;
+.container {
     position: relative;
-  }
-  
+    width: 80%;
+    margin: auto;
+}
 
-  
-  /* Your CSS below here */
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
 
-  article {
-    background: url(/img/Cubs-Baseball.jpg) no-repeat left top;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.2)),
-                url(/img/Date.jpg) no-repeat right top;
-                url(/img/MLB.jpg) no-repeat left bottom;
-    background-color: white;
-  }
-  
-  h1 {
-    background-image: url(/img/Cubs-Baseball.jpg);
-    box-shadow: 3px 3px 3px black;
-  }
- 
-  
+#overlay {
+    position: absolute;
+    bottom: 80%;
+    right: 5%;
+    width: 10%;
+}
+
+#overlay1 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 30%;
+}
