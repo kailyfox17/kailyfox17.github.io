@@ -1,13 +1,13 @@
 /*mobile portrait view*/
 @media screen and (min-width: 400px) 
 and (orientation: portrait) {
-
 body {
     background-color:#86BF99 ;
     color: #333;
     margin: 0;    
     font-family:Georgia, 'Times New Roman', Times, serif
   }
+  
   img {
       max-width: 100%;
       display: block;
@@ -70,8 +70,11 @@ body {
       margin: 0 20px 20px 0;
   }
 }
+
+
 /*for desktop view*/
-@media  and (min-width:1024px) {
+@media screen  and (min-width:1024px) {
+
   body {
     background-color:#86BF99 ;
     color: #333;
