@@ -66,25 +66,3 @@ nav a {
     float: left;
     margin: 0 20px 20px 0;
 }
-@media only screen and (max-width: 400px) {
-.grid{
-  flex-direction: column;
-}
-nav ul{
-flex-direction: column;
-}
-.photos{
-  grid-template-columns: 280px;
-}
-}
-@media only screen and (max-width: 500px) {
-  .grid{
-    flex-direction: column;
-  }
-  nav ul{
-  flex-direction: column;
-  }
-  .photos{
-    grid-template-columns: 280px;
-  }
-  }
