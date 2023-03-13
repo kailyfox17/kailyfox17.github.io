@@ -1,3 +1,7 @@
+/*mobile portrait view*/
+@media screen and (min-width: 400px) 
+and (orientation: portrait) {
+
 body {
     background-color:#86BF99 ;
     color: #333;
@@ -65,3 +69,74 @@ body {
       float: left;
       margin: 0 20px 20px 0;
   }
+}
+/*for desktop view*/
+@media  and (min-width:1024px) {
+  body {
+    background-color:#86BF99 ;
+    color: #333;
+    margin: 0;    
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: .5em;
+    top:0;
+    position: sticky;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #86BF99 ;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    /* list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 1fr 1fr; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type:none;
+  }
+
+  .feature {
+      width: 200px;
+      float: left;
+      margin: 0 20px 20px 0;
+  }
+}
