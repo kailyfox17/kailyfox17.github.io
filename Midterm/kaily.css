@@ -1,6 +1,6 @@
 /*mobile portrait view*/
-@media screen and (min-width: 400px) 
-and (orientation: portrait) {
+@media only screen and (max-width: 400px) 
+ {
 body {
     background-color:#86BF99 ;
     color: #333;
@@ -73,7 +73,7 @@ body {
 
 
 /*for desktop view*/
-@media screen  and (min-width:1024px) {
+@media only screen  and (max-width:500px) {
 
   body {
     background-color:#86BF99 ;
