@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
-const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
-const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
-const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
+const storyText = 'It was 82 fahrenheit on a sunny day, so :insertx: wanted to spend the day outdoors. When they got to :inserty:, they were so unbelievably happy! Until they saw :insertz:. Kaily saw the whole thing, so picked up their 20 pound purse and left.— :insertx: was upset, and decided to leave.';
+const insertX = ['Santa', 'Doja Cat', 'my dog'];
+const insertY = ['the beach', 'the park', 'Six Flags'];
+const insertZ = ['an evil monster', 'their mom', 'how crowded it was'];
 
 randomize.addEventListener('click', result);
 
@@ -27,14 +27,14 @@ function result() {
 
   if (customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replaceAll('Bob', name);
+    newStory = newStory.replaceAll('Kaily', name);
   }
 
   if (document.getElementById("uk").checked) {
-    const weight = `${Math.round(300*0.0714286)} stone`;
-    const temperature =  `${Math.round((94-32) * 5 / 9)} centigrade`;
-    newStory = newStory.replaceAll('94 fahrenheit', temperature);
-    newStory = newStory.replaceAll('300 pounds', weight);
+    const weight = Math.round(20/2.174) + ' kilogram';
+    const temperature =  `${Math.round((82-32) * 5 / 9)} celsius`;
+    newStory = newStory.replaceAll('82 fahrenheit', temperature);
+    newStory = newStory.replaceAll('20 pound', weight );
   }
 
   story.textContent = newStory;
