@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Layout Task</title>
+    <link href="ica9.css" rel="stylesheet">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1 id="demo" onclick="myFunction()">Wanna lick here? :)</h1>
+    <h2>Wanna guess a number? Hint, it is no higher than 17, my favorite number:)</h2>
+
+    <script>
+        function myFunction(){
+            document.getElementById("demo").style.colot = "pink";
+        }
+    </script>
+
+    <div class="form">
+        <label for="guessField">Enter guess:</label>
+        <input type = "text"
+                id = "guessField"
+                class = "guessField">
+        <input type="submit"
+               value="submitGuess"
+               id = "submitGuess">
+    </div>
+
+    <script type = "text/JavaScript">
+
+        // value generation
+        var y = Math.floor(Math.random() * 17 + 1);
+
+        //Count guesses
+        //made for right guess
+        var guess = 1;
+
+        document.getElementById("submitguess").onclick = function() {
+
+        //number guessed 
+        var x = document.getElementById("guess field").value;
+
+        if (x == y) /*if its greater than actual*/ 
+        {
+            alert("You got it!!"
+            + guess + "guess");
+        }
+        else if(x > y) /*if its greater than actual*/ 
+    {
+        guess++;
+        alert("Wrong:(, try a smaller number"); 
+    }
+    else
+        {
+        else
+            guess++;
+            alert("Wrong:(, try a larger number");
+        }
+       
+        }
+        
+    </script>
+  </body>

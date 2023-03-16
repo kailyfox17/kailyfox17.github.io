@@ -1,0 +1,14 @@
+body{
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15;
+    padding-bottom: 50px;
+}
+h2{
+    padding-bottom: 10px;
+}
