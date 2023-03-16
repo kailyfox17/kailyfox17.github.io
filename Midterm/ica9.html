@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Layout Task</title>
     <link href="ica9.css" rel="stylesheet">
     <title>JavaScript</title>
   </head>
+
   <body>
-    <h1 id="demo" onclick="myFunction()">Wanna lick here? :)</h1>
+    <h1 id="demo" onclick="myFunction()">Wanna click here to see a new color? :)</h1>
     <h2>Wanna guess a number? Hint, it is no higher than 17, my favorite number:)</h2>
 
     <script>
         function myFunction(){
-            document.getElementById("demo").style.colot = "pink";
+            document.getElementById("demo").style.color = "pink";
         }
     </script>
 
@@ -22,8 +23,9 @@
         <input type = "text"
                 id = "guessField"
                 class = "guessField">
-        <input type="submit"
-               value="submitGuess"
+        <input type = "submit"
+               value = "submitGuess"
+               class = "guessSubmit"
                id = "submitGuess">
     </div>
 
@@ -39,26 +41,26 @@
         document.getElementById("submitguess").onclick = function() {
 
         //number guessed 
-        var x = document.getElementById("guess field").value;
+        var x = document.getElementById("guessField").value;
 
-        if (x == y) /*if its greater than actual*/ 
+        if (x == y) 
         {
             alert("You got it!!"
             + guess + "guess");
         }
         else if(x > y) /*if its greater than actual*/ 
-    {
+        {
         guess++;
         alert("Wrong:(, try a smaller number"); 
     }
     else
-        {
-        else
+    {
             guess++;
             alert("Wrong:(, try a larger number");
         }
        
         }
-        
+
     </script>
   </body>
+  </html>

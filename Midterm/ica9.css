@@ -1,12 +1,12 @@
 body{
-    background-color: green;
+    background-color:gainsboro;
     color: black;
     text-align: center;
 }
 
 h1{
     text-align: center;
-    padding-top: 15;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 h2{
