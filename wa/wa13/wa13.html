@@ -1,37 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Volume Control</title>
     <link rel="stylesheet" href="wa13.css">
-    <script defer src="wa13.js"></script>
 </head>
 <body>
-    <div>
-        <p>Please select the volume you'd like</p>
-        <p class="output">50</p>
+    <h1>Volume Control</h1>
+    <div id="volumeContainer">
+        <div id="volumeBar"></div>
     </div>
-<div>  <!-- plus/minus volume changer-->
-   <form>
-    <input class="minus-button" type="button" name="minus-button" value = "MINUS"></button>
-    <input class="plus-button" type="button" name="plus-button" value = "PLUS"></button>
-    <input class="reset-button" type="button" name="reset-button" value = "RESET"></button>
-    <input class="random-button" type="button" name="random-button" value = "RANDOM"></button>
-    <input class="submit-button" type="button" name="submit-button" value = "SUBMIT"></button>
-   </form> 
-</div>
+    <div id="volumeStatus">Volume: 50</div>
 
-<div> <!--This will be the slider-->
-    <div class="slidecontainer">
-        <p>Please select the volume you'd like.</p>
-        <input type="range" min="0" max="100" class="slider" id="myRange">
-        <input class="slider-submit-button" type="button" name="slider-submit-button" value = "SUBMIT"></button>
-        <p class="slider-output" p>
-    </div>
-
-</div>
+    <script src="wa13.js"></script>
 </body>
 </html>

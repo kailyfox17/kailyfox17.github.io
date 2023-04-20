@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#volumeContainer {
+    width: 200px;
+    height: 20px;
+    background-color: #eee;
+    margin: 20px auto;
+    cursor: pointer;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+#volumeBar {
+    width: 0;
+    height: 100%;
+    background-color: red;
+    transition: width 0.3s ease-in-out;
+}
+
+#volumeStatus {
+    margin-top: 10px;
+}
