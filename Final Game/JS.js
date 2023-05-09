@@ -35,13 +35,13 @@ function shuffleWord(word) {
     event.preventDefault();
     let guess = guessInputElement.value.toLowerCase();
     if (guess === currentWord) {
-      messageElement.innerText = 'You guessed it!';
+      messageElement.innerText = 'That is correct!';
       newWordButton.style.display = 'block';
     } else if (guesses.includes(guess)) {
       messageElement.innerText = 'You already guessed that!';
     } else {
       guesses.push(guess);
-      messageElement.innerText = 'Wrong guess, try again.';
+      messageElement.innerText = 'Sorry, that is not correct.';
     }
     guessInputElement.value = '';
   }
